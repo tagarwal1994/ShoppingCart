@@ -86,6 +86,7 @@ public class SellerController {
 		seller = sellerService.addSeller(seller);
 
 		logger.info("Seller added successfully..!!");
+		logger.info("Seller added successfully..!!");
 
 		return ResponseEntity.ok(ECommerceMessage.SELLER_SAVED);
 	}
